@@ -1,0 +1,159 @@
+================================================================================
+Solar Plans Comparison Analysis
+================================================================================
+
+Reading solar plans...
+Loaded 8 solar plans
+
+Reading inverter data...
+Loaded inverter data from 01.02.2025 to 01.02.2026
+Period: 366 days
+
+================================================================================
+PLAN COMPARISON RESULTS (Sorted by Best Value)
+================================================================================
+
+Rank 1: ENGIE — VIC _ ENGIE Solar Elec
+Offer ID: ENG717888MR
+  Net Cost: $1105.89
+    - Total Imported Energy Cost: $898.67
+    - Daily Supply Charge Total: $517.74 (366 days × 141.46c/day)
+    - Total Exported Energy Revenue: $310.52
+
+Rank 2: ENGIE — VIC _ ENGIE Solar Elec
+Offer ID: ENG717889MR
+  Net Cost: $1105.89
+    - Total Imported Energy Cost: $898.67
+    - Daily Supply Charge Total: $517.74 (366 days × 141.46c/day)
+    - Total Exported Energy Revenue: $310.52
+
+Rank 3: ENGIE — VIC _ ENGIE Solar Elec
+Offer ID: ENG718282MR
+  Net Cost: $1176.32
+    - Total Imported Energy Cost: $1047.15
+    - Daily Supply Charge Total: $517.74 (366 days × 141.46c/day)
+    - Total Exported Energy Revenue: $388.57
+
+Rank 4: ENGIE — VIC _ ENGIE Solar Elec
+Offer ID: ENG718283MR
+  Net Cost: $1176.32
+    - Total Imported Energy Cost: $1047.15
+    - Daily Supply Charge Total: $517.74 (366 days × 141.46c/day)
+    - Total Exported Energy Revenue: $388.57
+
+Rank 5: Flow Power — Flow Home - Time of Use (TOU)
+Offer ID: FLO719615MR
+  Net Cost: $1295.79
+    - Total Imported Energy Cost: $1020.64
+    - Daily Supply Charge Total: $372.15 (366 days × 101.68c/day)
+    - Total Exported Energy Revenue: $97.00
+
+Rank 6: Flow Power — Flow Home - Time of Use (TOU) with Controlled Load
+Offer ID: FLO719610MR
+  Net Cost: $1295.79
+    - Total Imported Energy Cost: $1020.64
+    - Daily Supply Charge Total: $372.15 (366 days × 101.68c/day)
+    - Total Exported Energy Revenue: $97.00
+
+Rank 7: Flow Power — Flow Home - Single Rate
+Offer ID: FLO719675MR
+  Net Cost: $1375.04
+    - Total Imported Energy Cost: $1132.10
+    - Daily Supply Charge Total: $339.94 (366 days × 92.88c/day)
+    - Total Exported Energy Revenue: $97.00
+
+Rank 8: Flow Power — Flow Home - Single Rate with Controlled Load
+Offer ID: FLO719619MR
+  Net Cost: $1375.04
+    - Total Imported Energy Cost: $1132.10
+    - Daily Supply Charge Total: $339.94 (366 days × 92.88c/day)
+    - Total Exported Energy Revenue: $97.00
+
+================================================================================
+SUMMARY
+================================================================================
+Best Value Plan: ENGIE — VIC _ ENGIE Solar Elec (ENG717888MR)
+  Net Cost: $1105.89
+
+Highest Cost Plan: Flow Power — Flow Home - Single Rate with Controlled Load (FLO719619MR)
+  Net Cost: $1375.04
+
+Potential savings by choosing best plan: $269.15
+
+================================================================================
+ANALYSIS & KEY INSIGHTS
+================================================================================
+
+Plan Characteristics:
+--------------------------------------------------------------------------------
+
+ENGIE — VIC _ ENGIE Solar Elec:
+  Import Energy Cost: $898.67
+  Export Revenue: $310.52
+  Daily Supply Charge: $517.74
+  Net Cost (Total): $1105.89
+
+ENGIE — VIC _ ENGIE Solar Elec:
+  Import Energy Cost: $898.67
+  Export Revenue: $310.52
+  Daily Supply Charge: $517.74
+  Net Cost (Total): $1105.89
+
+ENGIE — VIC _ ENGIE Solar Elec:
+  Import Energy Cost: $1047.15
+  Export Revenue: $388.57
+  Daily Supply Charge: $517.74
+  Net Cost (Total): $1176.32
+
+ENGIE — VIC _ ENGIE Solar Elec:
+  Import Energy Cost: $1047.15
+  Export Revenue: $388.57
+  Daily Supply Charge: $517.74
+  Net Cost (Total): $1176.32
+
+Flow Power — Flow Home - Time of Use (TOU):
+  Import Energy Cost: $1020.64
+  Export Revenue: $97.00
+  Daily Supply Charge: $372.15
+  Net Cost (Total): $1295.79
+
+Flow Power — Flow Home - Time of Use (TOU) with Controlled Load:
+  Import Energy Cost: $1020.64
+  Export Revenue: $97.00
+  Daily Supply Charge: $372.15
+  Net Cost (Total): $1295.79
+
+Flow Power — Flow Home - Single Rate:
+  Import Energy Cost: $1132.10
+  Export Revenue: $97.00
+  Daily Supply Charge: $339.94
+  Net Cost (Total): $1375.04
+
+Flow Power — Flow Home - Single Rate with Controlled Load:
+  Import Energy Cost: $1132.10
+  Export Revenue: $97.00
+  Daily Supply Charge: $339.94
+  Net Cost (Total): $1375.04
+
+Key Findings:
+--------------------------------------------------------------------------------
+1. Time of Use (TOU) Plans offer the best value
+   - Lower consumption rates balance higher daily supply charge
+   - TOU consumption rate: 33.88 c/kWh
+   - Single rate consumption rate: 37.58 c/kWh
+
+2. Controlled Load (CL) variant does not affect total cost
+   - CL and non-CL plans show identical costs
+   - In this dataset, CL does not import extra energy
+
+3. Solar Export Revenue
+   - Total annual export: 6386.14 kWh
+   - Export occurs during daylight hours (6am-7pm)
+   - Peak export rate (5:30-7:30pm): 35.00 c/kWh
+   - Off-peak export rate: 0.00 c/kWh
+   - Annual export revenue: $310.52
+
+4. Annual Savings Analysis
+   - By choosing TOU over Single Rate: $269.15/year
+   - Savings percentage: 19.6%
+
